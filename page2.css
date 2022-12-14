@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.first {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.first .create {
+    font-size: 30px;
+    width: 50%;
+    color: #eee;
+    padding-top: 100px;
+}
+
+
+
+.two {
+    padding-top: 30px;
+}
+
+.two .container h3 {
+    font-size: 30px;
+    text-indent: 150px;
+}
+
+.categoris {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 150px;
+}
+
+.categoris .category {
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+    padding: 0px 10px;
+    flex: 1;
+}
+
+.categoris .category img {
+    transition: transform 150ms ease-in;
+}
+
+.categoris .category img:hover {
+    transform: scale(1.03);
+}
+
+.three {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.three .featur h1 {
+    font-size: 30px;
+    text-indent: 220px;
+}
+
+.topics {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 150px;
+}
+
+.topics .topic {
+    width: 25%;
+    font-size: 20px;
+    display: grid;
+    place-content: center;
+    padding: 0px 10px;
+    flex: 1;
+}
+
+.three .input {
+    width: auto;
+    font-size: 20px;
+    display: inline-flex;
+    position: relative;
+    text-decoration: none;
+    color: #1c1d1f;
+    border: 1px solid #1c1d1f;
+    justify-content: center;
+    margin-left: 230px;
+}
